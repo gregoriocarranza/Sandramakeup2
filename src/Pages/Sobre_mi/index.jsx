@@ -1,5 +1,11 @@
 import "./index.css";
 
+import Perfil_sandra from "../../assets/Sobre_mi/Perfil_sandra.png"
+import banner from "../../assets/Sobre_mi/baner.png"
+import Titulo from "../../assets/Sobre_mi/titulo.png"
+import video1 from "../../assets/Sobre_mi/11.png"
+import video2 from "../../assets/Sobre_mi/22.png"
+
 import { Fragment, useState } from "react";
 
 function Sobre_mi() {
@@ -7,14 +13,14 @@ function Sobre_mi() {
 
   return (
     <Fragment>
-      <img className="Banner" src="./assets/Sobre_mi/baner.png" alt="" />
+      <img className="Banner" src={banner} alt="" />
 
       <section className="divSection">
         <div className="imagenPreviewe">
-          <img src="./assets/Sobre_mi/Perfil_sandra.png" alt="" />
+          <img src={Perfil_sandra} alt="" />
         </div>
         <div className="textAndPresentation">
-          <img src="./assets/Sobre_mi/titulo.png" alt="" />
+          <img src={Titulo} alt="" />
           <div className="Text">
             <p>
               Hace mas de 12 años que me sumergí en el mundo del make up. Cuando
@@ -49,14 +55,14 @@ function Sobre_mi() {
         <h3>Trayectoria en el cine</h3>
         <section className="alCineImg">
           <div className="divVideos">
-            <img src="./assets/Sobre_mi/11.png" alt="" />
+            <img src={video1} alt="" />
             <a href="https://play.cine.ar/INCAA/produccion/3997">
               Maquillé para CineAr. Pelicula “MAYO EN LA AVENIDA” DIRECTOR:
               Diego Baridó Productora:Silvana Cascardo: @rouge.sil
             </a>
           </div>
           <div className="divVideos">
-            <img src="./assets/Sobre_mi/22.png" alt="" />
+            <img src={video2}  alt="" />
             <a href="https://play.cine.ar/INCAA/produccion/3997">
               Maquillé para CineAr. Pelicula “MAYO EN LA AVENIDA” DIRECTOR:
               Diego Baridó Productora:Silvana Cascardo: @rouge.sil

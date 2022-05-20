@@ -2,7 +2,7 @@ import "./index.css";
 
 import { Fragment, useState } from "react";
 import LI from "./LI_component";
-
+import FooterLogo from "../../assets/Footer/footerlogo.png" 
 function Footer() {
   const [change, setChage] = useState(0);
   return (
@@ -59,7 +59,7 @@ function Footer() {
             </ul>
           </div>
           <div className="FooterLogo">
-            <img src="./assets/Footer/footerlogo.png" alt="" />
+            <img src={FooterLogo}alt="" />
             <h3>@Sandratmua</h3>
           </div>
         </section>

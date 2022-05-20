@@ -4,6 +4,10 @@ import { Fragment, useState } from "react";
 import Redes from "./Redes";
 import { Link } from "react-router-dom";
 
+import FaceBook from "../../assets/Header/Facebook.png";
+import Youtube from "../../assets/Header/Twiter.png";
+import Instagram from "../../assets/Header/Instagram.png";
+
 function NavBar() {
   const [pivot, setPivot] = useState(1);
   return (
@@ -59,9 +63,15 @@ function NavBar() {
         </div>
 
         <div className="RedesDiv">
-          <Redes url="" link="./assets/Header/Facebook.png" class="Facebook" />
-          <Redes url="" link="./assets/Header/Twiter.png" class="Twiter" />
-          <Redes url="https://www.instagram.com/sandratmua/" link="./assets/Header/Instagram.png" class="Instagram" />
+          <a href="" target="_blank" className="redesCircle">
+            <img className="Facebook" src={FaceBook} alt="" />
+          </a>
+          <a href="" target="_blank" className="redesCircle">
+            <img className="Youtube" src={Youtube} alt="" />
+          </a>
+          <a href="https://www.instagram.com/sandratmua/" target="_blank" className="redesCircle">
+            <img className="Instagram" src={Instagram} alt="" />
+          </a>
         </div>
       </nav>
     </Fragment>

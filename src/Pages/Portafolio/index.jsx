@@ -2,17 +2,21 @@ import "./index.css";
 
 import { Fragment, useState } from "react";
 import Card from "../../Components/Card/Card.jsx";
+import banner from "../../assets/Sobre_mi/baner.png"
+import Titulo from "../../assets/Portafolios/Group_20.png"
+
+
 
 function Sobre_mi() {
   //   const [change, setChage] = useState(false);
 
   return (
     <Fragment>
-      {/* <img className="Banner" src="./assets/Sobre_mi/baner.png" alt="" /> */}
+      {/* <img className="Banner" src={banner} alt="" /> */}
       <div className="PortafolioDiv">
         <img
           className="portafolioTitle"
-          src="./assets/Portafolios/Group_20.png"
+          src={Titulo}
           alt=""
         />
 

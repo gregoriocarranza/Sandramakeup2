@@ -1,9 +1,9 @@
 import "./index.css";
 
 import { Fragment, useState } from "react";
-import Redes from "./Redes";
 import { Link } from "react-router-dom";
 
+import Redes from "./Redes";
 import FaceBook from "../../assets/Header/Facebook.png";
 import Youtube from "../../assets/Header/Twiter.png";
 import Instagram from "../../assets/Header/Instagram.png";
@@ -63,15 +63,13 @@ function NavBar() {
         </div>
 
         <div className="RedesDiv">
-          <a href="" target="_blank" className="redesCircle">
-            <img className="Facebook" src={FaceBook} alt="" />
-          </a>
-          <a href="" target="_blank" className="redesCircle">
-            <img className="Youtube" src={Youtube} alt="" />
-          </a>
-          <a href="https://www.instagram.com/sandratmua/" target="_blank" className="redesCircle">
-            <img className="Instagram" src={Instagram} alt="" />
-          </a>
+          <Redes link={FaceBook} url="" class="Facebook" />
+          <Redes link={Youtube} url="" class="Youtube" />
+          <Redes
+            link={Instagram}
+            url="https://www.instagram.com/sandratmua/"
+            class="Instagram"
+          />
         </div>
       </nav>
     </Fragment>

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+.FormSection {
+  margin: 160px auto 15rem auto;
+
+  width: 40%;
+  /* height: auto; */
+  /* margin: auto; */
+}
+.FormUser {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+}
+
+.FormUser label {
+  /* Caption */
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+
+  letter-spacing: 0.03em;
+
+  color: #29303e;
+}
+
+.FormUser input {
+  height: 35px;
+  padding: 5px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.25px;
+
+  color: #707d86;
+}
+.FormUser textarea {
+  height: 166px;
+  padding: 5px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.25px;
+
+  color: #707d86;
+}
+.FormUser select {
+  height: 35px;
+  padding: 5px;
+
+  /* padding: 5px; */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.25px;
+
+  color: #707d86;
+}
+
+.FormUser button {
+  margin: 16px 0 0 0;
+  border: 0px solid #29303e;
+
+  height: 35px;
+
+  background: #dcfe54;
+  box-shadow: 0px 10px 15px -3px rgba(21, 23, 25, 0.16);
+  border-radius: 2px;
+}

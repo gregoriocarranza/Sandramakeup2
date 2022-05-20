@@ -10,7 +10,6 @@ import Portfolio from "./Pages/Portafolio/index.jsx";
 import Contact from "./Pages/Contacto/index.jsx";
 
 import Header from "./Components/Header/Header";
-import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -24,7 +23,6 @@ function App() {
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
     </Fragment>
   );

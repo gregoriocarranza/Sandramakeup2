@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+.Hablemos {
+
+  background: #d0c5fb;
+  border-radius: 0px 12px 12px 0px;
+  display: flex;
+  width: 50%;
+  height: auto;
+  flex-direction: column;
+}
+
+.Hablemos h2 {
+  text-align: start;
+  width: 50%;
+  margin: 151px auto 0 auto;
+
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #000000;
+}
+.Hablemos p {
+  width: 50%;
+  margin: 0 auto 95px auto;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+
+  letter-spacing: 0.04em;
+
+  color: #000000;
+}
+.Hablemos .InfoLink {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 5px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  letter-spacing: 0.04em;
+
+  color: #4f4f4f;
+}
+.Hablemos .InfoLink img {
+  padding: 5px;
+}
+.Contacto {
+  display: flex;
+}
+
+.redesDiv {
+  display: flex;
+  width: 50%;
+  margin: 42px auto 0 auto;
+}

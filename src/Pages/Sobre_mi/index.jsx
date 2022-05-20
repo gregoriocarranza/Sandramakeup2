@@ -1,10 +1,12 @@
 import "./index.css";
 
-import Perfil_sandra from "../../assets/Sobre_mi/Perfil_sandra.png"
-import banner from "../../assets/Sobre_mi/baner.png"
-import Titulo from "../../assets/Sobre_mi/titulo.png"
-import video1 from "../../assets/Sobre_mi/11.png"
-import video2 from "../../assets/Sobre_mi/22.png"
+import Perfil_sandra from "../../assets/Sobre_mi/Perfil_sandra.png";
+import banner from "../../assets/Sobre_mi/baner.png";
+import Titulo from "../../assets/Sobre_mi/titulo.png";
+import video1 from "../../assets/Sobre_mi/11.png";
+import video2 from "../../assets/Sobre_mi/22.png";
+
+import Footer from "../../Components/Footer/Footer";
 
 import { Fragment, useState } from "react";
 
@@ -62,7 +64,7 @@ function Sobre_mi() {
             </a>
           </div>
           <div className="divVideos">
-            <img src={video2}  alt="" />
+            <img src={video2} alt="" />
             <a href="https://play.cine.ar/INCAA/produccion/3997">
               Maquillé para CineAr. Pelicula “MAYO EN LA AVENIDA” DIRECTOR:
               Diego Baridó Productora:Silvana Cascardo: @rouge.sil
@@ -70,6 +72,7 @@ function Sobre_mi() {
           </div>
         </section>
       </section>
+      <Footer />
     </Fragment>
   );
 }

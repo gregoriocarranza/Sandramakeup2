@@ -4,6 +4,7 @@ import titulo from "../../assets/Inicio/titulo.png";
 import { Fragment } from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
+import Footer from "../../Components/Footer/Footer";
 
 function Inicio() {
   return (
@@ -29,6 +30,8 @@ function Inicio() {
           </div>
         </div>
       </section>
+<Footer />
+
     </Fragment>
   );
 }

@@ -1,0 +1,104 @@
+.banner-container {
+  width: 100%;
+  display: flex;
+}
+.banner-container .banner-img {
+  width: 100%;
+  height: 254px;
+}
+.section-home-cover {
+  padding-bottom: 5rem;
+  padding-top: 2.5rem;
+}
+.section-home-cover .cover-container{
+    justify-content: center;
+}
+.cover-container .perfil-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cover-container .perfil-hero .imagen-preview-home-img {
+  top: 0;
+  max-width: initial;
+}
+
+.cover-container .info-home img {
+  width: 485.07px;
+  height: 150.07px;
+  margin: 5px;
+}
+.cover-container .info-home .text-info-home {
+  width: 60%;
+  height: auto;
+}
+.cover-container .info-home .text-info-home p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #29303e;
+}
+.btn-info {
+  display: inline-block;
+  padding: 12px 16px;
+  background: #dcfe54;
+  border: 2px solid #dcfe54;
+  color: #29303e;
+  border-radius: 12px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  gap: 10px;
+  margin-top: 30px;
+}
+.layout-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+@media screen and (max-width: 768px) {
+    .section-home-cover{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .cover-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .cover-container .perfil-hero .imagen-preview-home-img{
+        width: calc(min(50vw, 200px));
+    }
+    .cover-container .info-home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .cover-container .info-home img{
+        width: calc(min(50vw, 300px));
+        height: auto;
+    }
+    .cover-container .info-home .text-info-home{
+        width: 100%;
+        height: auto;
+    }
+    .cover-container .info-home .text-info-home p {
+        text-align: justify;
+        margin-top: 5px;
+        
+    }
+    .banner-container .banner-img {
+        height: auto;
+        width: 100%;
+    }
+}

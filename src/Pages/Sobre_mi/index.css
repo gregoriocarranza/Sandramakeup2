@@ -1,0 +1,97 @@
+
+.divSection {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.textAndPresentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textAndPresentation img {
+  width: 485.07px;
+  height: 150.07px;
+  margin: 5px;
+}
+.textAndPresentation .Text {
+  width: 485.07px;
+  height: auto;
+}
+.textAndPresentation .Text p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+
+  letter-spacing: 0.04em;
+
+  color: #29303e;
+  text-align: start;
+}
+
+.alCineSection h3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 64px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #29303e;
+
+  margin: 30px;
+}
+.alCineImg {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: auto;
+
+  /* justify-content: space-evenly; */
+}
+
+.playbutton1 {
+  position: relative;
+
+  left: 350px;
+  top: -63px;
+}
+
+.playbutton2 {
+  position: fixed;
+
+  left: 350px;
+  top: -63px;
+}
+
+.divVideos a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: #828282;
+
+  margin: 1px;
+  width: 537px;
+  height: 52px;
+  margin: 15px 0 15px 0;
+}
+
+.divVideos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  margin: 0 82.5px 0 82.5px;
+}

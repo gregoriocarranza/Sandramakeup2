@@ -1,0 +1,10 @@
+.portafolioTitle {
+  width: 592px;
+  height: 157.77px;
+}
+.PortafolioDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* ?????? */
+}

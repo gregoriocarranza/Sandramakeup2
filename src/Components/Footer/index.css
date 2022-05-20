@@ -1,0 +1,161 @@
+footer {
+  background: #dccee4;
+}
+
+.footerr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3rem;
+  margin-top: 3rem;
+}
+
+.footerr h2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #994aff;
+}
+
+.FAQ {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.FAQ li {
+  list-style: none;
+  margin: 22px 0 0 0;
+}
+.FAQ li h3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #29303e;
+  padding-left: 5px;
+}
+
+.FAQ li div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.FAQ li div img {
+  width: 6px;
+  height: 12px;
+}
+.FAQ li p {
+  width: 509px;
+  height: 132px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: #4f4f4f;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  margin-left: 13px;
+}
+
+.notSelected img {
+  animation-name: rotate_1;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+.Selected img {
+  animation-name: rotate;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+@keyframes rotate_1 {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    height: 0px;
+  }
+  to {
+    opacity: 1;
+    height: 132px;
+  }
+}
+@keyframes fadeout {
+  from {
+    opacity: 1;
+    height: 132px;
+  }
+  to {
+    opacity: 0;
+    height: 0px;
+  }
+}
+.pSelected {
+  visibility: visible;
+  animation-name: fadein;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+.PnotSelected {
+  animation-name: fadeout;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+
+  /* display: none; */
+}
+.FooterLogo {
+  border-left: 1px solid white;
+  padding-left: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.FooterLogo img {
+  width: 184px;
+  height: 184px;
+}
+.FooterLogo h3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  /* identical to box height, or 142% */
+
+  text-transform: capitalize;
+
+  /* Fondo */
+
+  color: #f7f7f7;
+}

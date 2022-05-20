@@ -1,0 +1,83 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: inherit;
+}
+a {
+  list-style: none;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: #d0c5fb;
+  align-items: center;
+}
+nav .Textos {
+  display: flex;
+  justify-content: center;
+  background: #d0c5fb;
+  align-items: center;
+}
+nav .Textos a {
+  margin: 18px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+
+  /* Text/dark */
+
+  color: #29303e;
+}
+
+nav .Textos .btnSelected {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+
+  border-bottom: 1px solid #000;
+
+  color: #29303e;
+}
+
+.RedesDiv {
+  display: flex;
+  margin: 0 0rem 0 10rem;
+}
+.redesCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7f7;
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+
+  margin: 0px 8px 0px 8px;
+}
+
+.redesCircle .Facebook {
+  height: 16px;
+  width: 10px;
+}
+.redesCircle .Twiter {
+  height: 13px;
+  width: 16px;
+}
+.redesCircle .Instagram {
+  height: 16px;
+  width: 16px;
+
+  border-radius: 0px;
+}

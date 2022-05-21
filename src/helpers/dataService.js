@@ -1,6 +1,7 @@
+import automaquillaje from "../assets/Servicios/taller-de-automaquillaje.png"
 export default [
     {
-        image: "../assets/Servicios/carrera-de-maquillaje-social-inicial.png",
+        image: automaquillaje,
         title: "Taller de automaquillaje",
         description: "Aprende a ser tu propia maquilladora para todos los dias. Conoce como preparar tu piel y mucho màs.",
         list1: "Incluye materiales y herramientas para las clase",

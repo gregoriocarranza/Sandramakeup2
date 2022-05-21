@@ -15,8 +15,9 @@ function Sobre_mi() {
 
   return (
     <Fragment>
+      <div className="banner-container">
       <img className="Banner" src={banner} alt="" />
-
+      </div>
       <section className="divSection">
         <div className="imagenPreviewe">
           <img src={Perfil_sandra} alt="" />

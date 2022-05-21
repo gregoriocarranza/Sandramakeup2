@@ -17,7 +17,9 @@ import celIcon from "../../assets/Contacto/icon/phone.png"
 function Contacto() {
   return (
     <Fragment>
+      <div className="banner-container">
       <img className="Banner" src={banner} alt="" />
+      </div>
       <div className="Contacto">
         <section className="Hablemos">
           <h2>Hablemos</h2>

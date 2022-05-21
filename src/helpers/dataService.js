@@ -1,4 +1,6 @@
 import automaquillaje from "../assets/Servicios/taller-de-automaquillaje.png"
+
+
 export default [
     {
         image: automaquillaje,

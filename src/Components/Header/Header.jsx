@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 import Redes from "./Redes";
 import FaceBook from "../../assets/Header/Facebook.png";
-import Youtube from "../../assets/Header/Twiter.png";
+import Youtube from "../../assets/Header/Youtube.png";
 import Instagram from "../../assets/Header/Instagram.png";
 
 function NavBar() {
@@ -63,8 +63,8 @@ function NavBar() {
         </div>
 
         <div className="RedesDiv">
-          <Redes link={FaceBook} url="" class="Facebook" />
-          <Redes link={Youtube} url="" class="Youtube" />
+          <Redes link={FaceBook} url="https://www.facebook.com/sandratorrez88" class="Facebook" />
+          <Redes link={Youtube} url="https://www.youtube.com/channel/UC8wMykK6ELOb6W1jiPKOX0w" class="Youtube" />
           <Redes
             link={Instagram}
             url="https://www.instagram.com/sandratmua/"

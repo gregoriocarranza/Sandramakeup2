@@ -1,0 +1,21 @@
+.title{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.title h2 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #29303e;
+  }
+  .title .starone {
+    padding: 0 20px;
+  }
+  .title .startwo{
+      padding: 20px 10px;
+  }

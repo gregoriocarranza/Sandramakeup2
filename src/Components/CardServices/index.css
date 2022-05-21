@@ -1,0 +1,32 @@
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.services .image-services {
+    text-align: center;
+    width: 522px;
+    height: 347px;
+}
+.content-services h2{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-transform: capitalize;
+    color: #29303E;
+}
+.content-services p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #29303E;
+}
+.content-services li{
+    list-style: none;
+}

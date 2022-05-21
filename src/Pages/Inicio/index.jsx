@@ -1,6 +1,9 @@
 import banner from "../../assets/Inicio/Banner.png";
 import perfil from "../../assets/Inicio/Perfil_sandra.png";
 import titulo from "../../assets/Inicio/titulo.png";
+import cosmetic from "../../assets/Inicio/icon/Icon.png";
+import beauty from "../../assets/Inicio/icon/Icon-1.png";
+import student from "../../assets/Inicio/icon/Icon-2.png";
 import { Fragment } from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
@@ -30,6 +33,31 @@ function Inicio() {
           </div>
         </div>
       </section>
+      <section className="services-container">
+    <div className="services-title">
+      <h2>Nuestros servicios</h2>
+    </div>
+  <div className="services-list-container">
+    <div className="services-list">
+      <img src={cosmetic} alt="cosmetic brush icon" />
+      <span>Maquillaje social</span>
+      <p>Servicio de Maquillaje personalizado a prueba de agua, hipoalergènico y de larga duraciòn.</p>
+    </div>
+    <div className="services-list">
+    <img src={beauty} alt="beauty icon" />
+      <span>Taller de automaquillaje</span>
+      <p>Aprende a ser tu propia maquilladora para todos los dias. Conoce como preparar tu piel .</p>
+    </div>
+    <div className="services-list">
+    <img src={student} alt="student icon" />
+      <span>Carrera maquillaje S. inicial</span>
+      <p>Sabras lo necesario para iniciar en el mundo del Makeup y asi poder iniciar tu carrera.</p>
+    </div>
+    </div>
+    <Link to="/about" className="btn-info">
+          Ver Más
+        </Link>
+  </section>
 <Footer />
 
     </Fragment>

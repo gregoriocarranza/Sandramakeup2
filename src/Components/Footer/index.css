@@ -1,6 +1,6 @@
 footer {
   background: #dccee4;
-  position: relative;
+  overflow: hidden;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -16,7 +16,6 @@ footer {
   background: #dccee4;
   width: 100%;
   height: auto;
-  position: absolute;
 }
 
 .footerr h2 {

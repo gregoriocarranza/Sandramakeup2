@@ -5,6 +5,7 @@ import Card from "../../Components/Card/Card.jsx";
 import banner from "../../assets/Sobre_mi/baner.png";
 import Titulo from "../../assets/Portafolios/Group_20.png";
 import Footer from "../../Components/Footer/Footer";
+import data from "../../helpers/dataPortafolio";
 
 function Sobre_mi() {
   //   const [change, setChage] = useState(false);
@@ -13,10 +14,23 @@ function Sobre_mi() {
     <Fragment>
       {/* <img className="Banner" src={banner} alt="" /> */}
       <div className="PortafolioDiv">
-        <img className="portafolioTitle" src={Titulo} alt="" />
+        <section className="portafolioTitle">
+          <img src={Titulo} alt="" />
+        </section>
 
         <div className="CardContainer">
-          <Card url="./assets/" />
+          {data.map((card, index) => (
+            <Card
+              icon={card.icon}
+              Title={card.Title}
+              Texto={card.Texto}
+              img1={card.img1}
+              img2={card.img2}
+              img3={card.img3}
+              img4={card.img4}
+              key={index}
+            />
+          ))}
         </div>
       </div>
       <Footer />

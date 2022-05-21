@@ -8,7 +8,6 @@
   height: 254px;
 }
 .section-home-cover {
-  padding-bottom: 5rem;
   padding-top: 2.5rem;
 }
 .section-home-cover .cover-container {
@@ -110,16 +109,7 @@
   justify-content: center;
   align-items: center;
 }
-.services-container .services-title h2 {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 64px;
-  text-align: center;
-  text-transform: capitalize;
-  color: #29303e;
-}
+
 .services-container .services-list-container {
   display: flex;
   padding: 30px;

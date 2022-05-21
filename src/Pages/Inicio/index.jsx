@@ -8,6 +8,7 @@ import { Fragment } from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
 import Footer from "../../Components/Footer/Footer";
+import Title from "../../Components/Title/Title";
 
 function Inicio() {
   return (
@@ -34,9 +35,7 @@ function Inicio() {
         </div>
       </section>
       <section className="services-container">
-    <div className="services-title">
-      <h2>Nuestros servicios</h2>
-    </div>
+    <Title />
   <div className="services-list-container">
     <div className="services-list">
       <img src={cosmetic} alt="cosmetic brush icon" />

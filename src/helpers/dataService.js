@@ -1,4 +1,10 @@
 import automaquillaje from "../assets/Servicios/taller-de-automaquillaje.png"
+import maquillajeeditorial from "../assets/Servicios/maquillaje-editorial.png"
+import extensionesdepestañas from "../assets/Servicios/extensiones-de-pestañas.png"
+import maquillajesocial from "../assets/Servicios/maquillaje-social.png"
+import carrerademaquillajesocialinicial from "../assets/Servicios/carrerademaquillajesocialinicial.png"
+
+
 
 
 export default [
@@ -11,15 +17,15 @@ export default [
         list3: "Requisito ser mayor de 15 años"
     },
     {
-        image: "../assets/Servicios/maquillaje-editorial.png",
-        title: "MAQUI,LLAJE SOCIAL",
+        image: maquillajesocial,
+        title: "MAQUILLAJE SOCIAL",
         description: "Servicio de Maquillaje personalizado a prueba de agua, hipoalergènico y de larga duraciòn para eventos",
         list1: "Requisito asistir desmaquillados el dia del servicio",
         list2: "Duracion 1hs aproximandamente",
         list3: "Incluye 5 (cinco) pestañas grupales por ojo"
     },
     {
-        image: "../assets/Servicios/extensiones-de-pestañas.png",
+        image: carrerademaquillajesocialinicial,
         title: "CARRERA DE MAQUILLAJE SOCIAL INICIAL",
         description: "Conoceras lo necesario para iniciar en el mundo del Makeup y asi poder iniciar tu carrera habiendo estudiado en MUA",
         list1: "Incluye apuntes y temario",
@@ -27,7 +33,7 @@ export default [
         list3: "Reserva del 50% del la cuota"
     },
     {
-        image: "./assets/Servicios/maquillaje-social.png",
+        image: extensionesdepestañas,
         title: "extensiones Pestañas",
         description: "Realza tu mirada con volumen clásico, pelo x pelo, o dale súper volumen con la técnica más pedida: volumen ruso.",
         list1: "Productos de primera línea",
@@ -35,7 +41,7 @@ export default [
         list3: "Se pueden agregar pestañas de color"
     },
     {
-        image: "./assets/Servicios/taller-de-automaquillaje.png",
+        image: maquillajeeditorial,
         title: "Maquillaje EDitorial",
         description: "Servicio de maquillaje para fotografía, lucí tus book de fotos para actores, quince, novias, campañas fotográficas, modelos y mas",
         list1: "Pieles sin efecto flashback",

@@ -20,6 +20,7 @@ function Servicios() {
                 list2={card.list2}
                 list3={card.list3}
                 key={index}
+                num={index}
               />
               )
           }

@@ -13,18 +13,11 @@ function Card(props) {
           <h2>{props.Title}</h2>
           <p>{props.Texto}</p>
         </section>
-
-        <div class="imgsection">
-          <div class="Image1">
+        <div className="imgsection">
+          <div className="image">
             <img className="imgCardsI" src={props.img1} alt="" />
-          </div>
-          <div class="image2">
             <img className="imgCardsI" src={props.img2} alt="" />
-          </div>
-          <div class="image3">
             <img className="imgCardsI" src={props.img3} alt="" />
-          </div>
-          <div class="image4">
             <img className="imgCardsI" src={props.img4} alt="" />
           </div>
         </div>

@@ -1,5 +1,5 @@
 import banner from "../../assets/Inicio/Banner.png";
-import perfil from "../../assets/Inicio/Perfil_sandra.png";
+import perfil from "../../assets/Inicio/perfil-sandra.png";
 import titulo from "../../assets/Inicio/titulo.png";
 import cosmetic from "../../assets/Inicio/icon/Icon.png";
 import beauty from "../../assets/Inicio/icon/Icon-1.png";

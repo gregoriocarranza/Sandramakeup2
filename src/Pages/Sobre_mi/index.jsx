@@ -1,10 +1,9 @@
-import "./index.css";
-
-import Perfil_sandra from "../../assets/Sobre_mi/Perfil_sandra.png";
+import perfil from "../../assets/Inicio/perfil-sandra.png";
 import banner from "../../assets/Sobre_mi/baner.png";
 import Titulo from "../../assets/Sobre_mi/titulo.png";
 import video1 from "../../assets/Sobre_mi/11.png";
 import video2 from "../../assets/Sobre_mi/22.png";
+import "./index.css";
 
 import Footer from "../../Components/Footer/Footer";
 
@@ -20,7 +19,7 @@ function Sobre_mi() {
       </div>
       <section className="divSection">
         <div className="imagenPreviewe">
-          <img src={Perfil_sandra} alt="" />
+          <img src={perfil} alt="" />
         </div>
         <div className="textAndPresentation">
           <img src={Titulo} alt="" />

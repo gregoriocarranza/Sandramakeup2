@@ -19,12 +19,14 @@
   grid-template-columns: repeat(3, 1fr);
   margin-bottom: 50px;
   gap: 30px;
+  justify-items: center;
 }
-@media screen and (max-width: 768px){
-  .CardContainer{ 
+@media screen and (max-width: 768px) {
+  .CardContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
     gap: 10px;
+    justify-items: center;
   }
 }

@@ -24,7 +24,7 @@ function Form() {
           />
           <label htmlFor="subjet">Servicio *</label>
           <select name="_subject" id="subjet" required>
-            <option value="-none-" selected>
+            <option value="-none-" defaultValue>
               Selecciona un servicio
             </option>
             <option value="Consulta sobre Taller de automaquillaje">

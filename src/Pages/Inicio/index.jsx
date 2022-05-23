@@ -11,7 +11,7 @@ import Footer from "../../Components/Footer/Footer";
 import Title from "../../Components/Title/Title";
 import Testimonial from "../../Components/Testimonial/Testimonial";
 
-function Inicio() {
+function Inicio({setPivot}) {
   return (
     <Fragment>
       <div className="banner-container">
@@ -29,7 +29,7 @@ function Inicio() {
               Hace mas de 12 años que me sumergí en el mundo del make up. Cuando empecé sabia que me gustaba el arte y los colores, pero no sabia que en ese momento se despertaría en mi la pasión por el maquillaje, resaltar la belleza de las personas.
               </p>
             </div>
-            <Link to="/about" className="btn-info">
+            <Link to="/about" className="btn-info" onClick={()=>{setPivot(2)}}>
               Conoceme Más
             </Link>
           </div>
@@ -54,7 +54,7 @@ function Inicio() {
       <p>Sabras lo necesario para iniciar en el mundo del Makeup y asi poder iniciar tu carrera.</p>
     </div>
     </div>
-    <Link to="/about" className="btn-info">
+    <Link to="/about" className="btn-info" onClick={()=>{setPivot(2)}}>
           Ver Más
         </Link>
   </section>

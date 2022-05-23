@@ -8,8 +8,7 @@ import FaceBook from "../../assets/Header/Facebook.png";
 import Youtube from "../../assets/Header/Youtube.png";
 import Instagram from "../../assets/Header/Instagram.png";
 
-function NavBar() {
-  const [pivot, setPivot] = useState(1);
+function NavBar({pivot, setPivot}) {
   return (
     <Fragment>
       <nav>

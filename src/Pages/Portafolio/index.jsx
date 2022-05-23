@@ -28,6 +28,7 @@ function Sobre_mi() {
               img3={card.img3}
               img4={card.img4}
               key={index}
+              Addon={true}
             />
           ))}
         </div>

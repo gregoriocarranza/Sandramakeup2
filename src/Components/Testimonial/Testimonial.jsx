@@ -28,8 +28,8 @@ function Testimonial() {
             delay: 3000,
           }}
           pagination={{ clickable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
+          // onSwiper={(swiper) => console.log(swiper)}
+          // onSlideChange={() => console.log("slide change")}
         >
           {dataTestimonials.map((data, index) => (
             <SwiperSlide key={index}>

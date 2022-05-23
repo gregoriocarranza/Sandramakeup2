@@ -4,8 +4,9 @@ import CarrouselZoom from "../../Components/CarrouselZoom/CarrouselZoom.jsx";
 import { Fragment, useState } from "react";
 
 function Card(props) {
+  const {Addon} =props
   //   const [change, setChage] = useState(false);
-  console.log(props);
+  // console.log(props);
   return (
     <Fragment>
       <div className="Carditem">

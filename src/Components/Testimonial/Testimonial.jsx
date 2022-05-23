@@ -11,7 +11,8 @@ import "./index.css";
 
 function Testimonial() {
   SwiperCore.use([Pagination, Scrollbar, Autoplay]);
-  const[slideChange, setSlideChange] = useState()
+
+  // const[slideChange, setSlideChange] = useState()
 
   return (
     <Fragment>

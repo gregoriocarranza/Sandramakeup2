@@ -4,9 +4,6 @@ import extensionesdepestañas from "../assets/Servicios/extensiones-de-pestañas
 import maquillajesocial from "../assets/Servicios/maquillaje-social.png"
 import carrerademaquillajesocialinicial from "../assets/Servicios/carrerademaquillajesocialinicial.png"
 
-
-
-
 export default [
     {
         image: automaquillaje,

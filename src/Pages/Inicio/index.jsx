@@ -9,6 +9,7 @@ import "./index.css";
 import { Link } from "react-router-dom";
 import Footer from "../../Components/Footer/Footer";
 import Title from "../../Components/Title/Title";
+import Testimonial from "../../Components/Testimonial/Testimonial";
 
 function Inicio() {
   return (
@@ -57,6 +58,7 @@ function Inicio() {
           Ver Más
         </Link>
   </section>
+  <Testimonial />
 <Footer />
 
     </Fragment>

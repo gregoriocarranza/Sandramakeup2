@@ -1,6 +1,6 @@
 import { Fragment, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Pagination, Scrollbar, Autoplay } from "swiper";
+import SwiperCore, { Pagination, Scrollbar, Autoplay, EffectFade } from "swiper";
 import dataTestimonials from "../../helpers/dataTestimonials";
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -21,7 +21,9 @@ function Testimonial() {
         <Swiper
           spaceBetween={50}
           slidesPerView={2}
+          slidesPerGroup={2}
           loop={true}
+          loopFillGroupWithBlank={true}
           autoplay={{
             delay: 3000,
           }}

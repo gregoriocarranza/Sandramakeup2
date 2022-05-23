@@ -2,3 +2,10 @@
     display: flex;
     flex-direction: column;
 }
+.rectangle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}

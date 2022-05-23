@@ -3,7 +3,9 @@ import Footer from "../../Components/Footer/Footer";
 import Title from "../../Components/Title/Title";
 import data from "../../helpers/dataService";
 import banner from "../../assets/Sobre_mi/baner.png";
+import rectangle from "../../assets/Icons/Rectangle.svg";
 import CardService from "../../Components/CardServices/CardService";
+import Testimonial from "../../Components/Testimonial/Testimonial";
 import "./index.css";
 
 function Servicios() {
@@ -30,6 +32,10 @@ function Servicios() {
               )
           }
         </div>
+        <div className="rectangle">
+        <img src={rectangle} className="rectangle-img" alt="rectangle-img" />
+        </div>
+        <Testimonial />
       <Footer />;
     </Fragment>
   );

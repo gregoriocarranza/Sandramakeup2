@@ -1,4 +1,5 @@
 import "./index.css";
+import CarrouselZoom from "../../Components/CarrouselZoom/CarrouselZoom.jsx";
 
 import { Fragment, useState } from "react";
 

@@ -7,7 +7,7 @@ import CampañaDeModaPic3 from "../../assets/Portafolios/Preview_campaña_de_mod
 import CampañaDeModaPic4 from "../../assets/Portafolios/Preview_campaña_de_moda/4.png"
 import "./index.css"
 
-function CarrouselZoom() {
+function CarrouselZoom(props) {
   return (
     <Fragment>
         <div className="content-carousel">

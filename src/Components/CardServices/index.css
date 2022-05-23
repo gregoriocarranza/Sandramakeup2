@@ -2,12 +2,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 30px 50px;
+    gap: 80px;
 }
 .services .image-services {
     text-align: center;
-    width: 522px;
-    height: 347px;
+    width: 50%;
+    height: auto;
+}
+ .order-left{
+    order: 0;
+}
+ .order-right{
+    order: 1;
 }
 .content-services h2{
     font-family: 'Bebas Neue';
@@ -17,6 +24,8 @@
     line-height: 77px;
     text-transform: capitalize;
     color: #29303E;
+    text-align: justify;
+    
 }
 .content-services p{
     font-family: 'DM Sans';
@@ -26,7 +35,10 @@
     line-height: 26px;
     letter-spacing: 0.04em;
     color: #29303E;
+    text-align: justify;
 }
 .content-services li{
     list-style: none;
+    margin: 10px;
+    text-align: justify;
 }

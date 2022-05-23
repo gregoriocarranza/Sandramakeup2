@@ -1,5 +1,6 @@
 import "./index.css";
 import { Fragment, useState } from "react";
+import Flecha from "../../assets/Footer/Vector.png"
 
 function LI(props) {
   const [change, setChage] = useState(false);
@@ -13,7 +14,7 @@ function LI(props) {
             setChage(!change);
           }}
         >
-          <img src="./assets/Footer/Vector.png" alt="" />
+          <img src={Flecha} alt="" />
           <h3>{props.text}</h3>
         </div>
         <p className={change ? "pSelected" : "PnotSelected"}>{props.p}</p>

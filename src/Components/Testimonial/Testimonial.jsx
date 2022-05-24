@@ -1,6 +1,6 @@
 import { Fragment, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Pagination, Scrollbar, Autoplay, EffectFade } from "swiper";
+import SwiperCore, { Pagination, Scrollbar, Autoplay } from "swiper";
 import dataTestimonials from "../../helpers/dataTestimonials";
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -11,8 +11,6 @@ import "./index.css";
 
 function Testimonial() {
   SwiperCore.use([Pagination, Scrollbar, Autoplay]);
-
-  // const[slideChange, setSlideChange] = useState()
 
   return (
     <Fragment>
@@ -28,8 +26,6 @@ function Testimonial() {
             delay: 3000,
           }}
           pagination={{ clickable: true }}
-          // onSwiper={(swiper) => console.log(swiper)}
-          // onSlideChange={() => console.log("slide change")}
         >
           {dataTestimonials.map((data, index) => (
             <SwiperSlide key={index}>

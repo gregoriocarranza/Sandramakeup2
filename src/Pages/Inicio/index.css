@@ -151,3 +151,22 @@
   letter-spacing: 0.04em;
   color: #29303e;
 }
+.latest-productions-container{
+  background: #D0C5FB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+.latest-productions-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+.latest-productions-container .btn-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

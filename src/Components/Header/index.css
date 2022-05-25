@@ -1,28 +1,9 @@
-* {
-  text-decoration: none;
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  color: inherit;
-}
-a {
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+.ul .li{
   list-style: none;
-  cursor: pointer;
 }
-
-nav {
-  display: flex;
-  justify-content: center;
-  background: #d0c5fb;
-  align-items: center;
-}
-nav .Textos {
-  display: flex;
-  justify-content: center;
-  background: #d0c5fb;
-  align-items: center;
-}
-nav .Textos a {
+.ul .li a{
+  text-decoration: none;
   margin: 18px;
   font-family: "DM Sans";
   font-style: normal;
@@ -31,13 +12,9 @@ nav .Textos a {
   line-height: 18px;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-
-  /* Text/dark */
-
   color: #29303e;
 }
-
-nav .Textos .btnSelected {
+.btnSelected {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
@@ -45,15 +22,99 @@ nav .Textos .btnSelected {
   line-height: 18px;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-
   border-bottom: 1px solid #000;
-
   color: #29303e;
 }
 
+@media screen and (max-width: 1000px){
+  .menu-container{
+    background: #D0C5FB;
+    width: 100%;
+  }
+  .menu{
+    background: #D0C5FB;
+    width: 100%;
+    height: 84px;
+  }
+  .ul{
+    position: absolute;
+    top: -100%;
+    transition: top 0.5s;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    background: #D0C5FB;
+  }
+  .ul .li{
+    padding: 10px 0;
+  }
+  .ul .li a{
+    margin: 18px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #29303e;
+  }
+  .btnToggle{
+    z-index: 2;
+    position: relative;
+    background-color: #D0C5FB;
+    border: none;
+    top: 20px;
+  }
+  .fs-1{
+    font-size: 30px;
+    background: #D0C5FB;
+    color: #141414;
+  }
+  .btnSelected {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    color: #29303e;
+  }
+  .RedesDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width:1001px) {
+  .menu{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #D0C5FB;
+    height: 84px;
+  }
+  .btnToggle{
+    display: none;
+  }
+  .ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #D0C5FB;
+    text-align: center;
+  }
+  .ul .li{
+    padding: 0 20px;
+  }
+}
 .RedesDiv {
   display: flex;
-  margin: 0 0rem 0 10rem;
+  margin: 0 0rem 0 1rem;
 }
 .redesCircle {
   display: flex;
@@ -63,7 +124,6 @@ nav .Textos .btnSelected {
   height: 32px;
   width: 32px;
   border-radius: 16px;
-
   margin: 0px 8px 0px 8px;
 }
 
@@ -78,6 +138,5 @@ nav .Textos .btnSelected {
 .redesCircle .Instagram {
   height: 16px;
   width: 16px;
-
   border-radius: 0px;
 }

@@ -38,11 +38,11 @@
 
 - Malena Saravia
 
-  - Diseñadora UX
+  - Diseñadora UX/UI
 
     - [Linkedin](https://www.linkedin.com/in/malena-saravia/)
 
-    - [Behance]()
+    - [Behance](https://www.behance.net/malee-sarac297)
 
       
 
@@ -56,3 +56,4 @@
 
 
 ### El mismo puede ser encontrado terminado en [aca](https://sandramakeup.netlify.app/)
+

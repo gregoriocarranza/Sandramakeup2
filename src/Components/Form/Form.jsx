@@ -1,6 +1,7 @@
 import "./index.css";
 
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 function Form() {
   return (
@@ -61,10 +62,11 @@ function Form() {
           />
           <input type="hidden" name="_template" value="table" />
           {/* Aca tiene que ir el redireccionamiento para agradecer por el mail */}
-          <input type="hidden" name="_next" value="/" />
+          <input type="hidden" name="_next" value="https://shiny-crisp-371ad2.netlify.app/Thanks.html" />
 
           <input type="hidden" name="_captcha" value="false" />
-          <button type="submit">Send</button>
+          <button type="submit">Enviar</button>
+          
         </form>
       </section>
     </Fragment>

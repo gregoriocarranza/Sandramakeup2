@@ -1,7 +1,8 @@
 # Sandra Torres MakeUp LandingPage
 
 Proyecto de rediseño del sitio de Sandra Torres make up., Maquillaje inclusivo para todes.<br>
-Se trabajó en el rediseño de la imagen de marca para que la identidad de Sandra se viera reflejada tanto en las redes sociales como en su sitio. Un diseño divertido, audaz e inclusivo. Proyecto integral que incluyó: identificación de modelo de negocio, fortalezas y debilidades, diseño del landing con una experiencia de usuario adaptado al target especifico y comunicación en redes sociales.
+Se trabajó en el rediseño de la imagen de marca para que la identidad de Sandra se viera reflejada tanto en las redes sociales como en su sitio.<br>
+Un diseño divertido, audaz e inclusivo. Proyecto integral que incluyó: identificación de modelo de negocio, fortalezas y debilidades, diseño del landing con una experiencia de usuario adaptado al target especifico y comunicación en redes sociales.
 
 
 #### Links Utiles

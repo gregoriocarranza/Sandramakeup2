@@ -1,6 +1,8 @@
 # Sandra Torres MakeUp LandingPage
 
-## Proyecto Real impartido por CoderHouse
+Proyecto de rediseño del sitio de Sandra Torres make up., Maquillaje inclusivo para todes. 
+Se trabajó en el rediseño de la imagen de marca para que la identidad de Sandra se viera reflejada tanto en las redes sociales como en su sitio. Un diseño divertido, audaz e inclusivo. Proyecto integral que incluyó: identificación de modelo de negocio, fortalezas y debilidades, diseño del landing con una experiencia de usuario adaptado al target especifico y comunicación en redes sociales.
+
 
 #### Links Utiles
   - [Figma (Guia de estilos)](https://www.figma.com/file/OSUlFs7M2nWy8RkOCNRIan/Propuestas-Redise%C3%B1o-web?node-id=27%3A53)
@@ -62,3 +64,5 @@
 
 ### El mismo puede ser encontrado terminado en [aca](https://sandramakeup.netlify.app/)
 
+
+## Proyecto Real impartido por CoderHouse

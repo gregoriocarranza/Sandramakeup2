@@ -52,7 +52,7 @@
 
     - [Linkedin](https://www.linkedin.com/in/lisi-mezzina/)
 
-    - [Behance]()
+    - [Behance](https://www.behance.net/lisimezzina)
 
 
 ### El mismo puede ser encontrado terminado en [aca](https://sandramakeup.netlify.app/)

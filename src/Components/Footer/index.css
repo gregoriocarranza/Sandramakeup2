@@ -139,7 +139,7 @@ footer {
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
 
-  /* display: none; */
+  display: none;
 }
 .FooterLogo {
   border-left: 1px solid white;

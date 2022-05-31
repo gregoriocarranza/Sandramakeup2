@@ -21,12 +21,32 @@
   gap: 30px;
   justify-items: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 469px) and (max-width: 768px) {
   .CardContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
     gap: 10px;
     justify-items: center;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 468px) {
+  .CardContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    gap: 10px;
+    justify-items: center;
+    padding-bottom: 20px;
+  }
+  .portafolioTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .portafolioTitle img{
+    width: calc(min(100vw, 300px));
+    height: auto;
+   
   }
 }

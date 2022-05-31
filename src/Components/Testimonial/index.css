@@ -1,8 +1,6 @@
 .testimonials {
   padding: 80px 120px;
   background: #f3f3f3;
-  background-position: center center;
-  background-size: cover;
   position: relative;
   margin-top: 50px;
 }
@@ -89,6 +87,20 @@
   margin: 0 auto 15px auto;
   text-align: justify;
 }
+.testimonials .testimonial-item .quote-icon{
+  display: inline-block;
+    left: -5px;
+    position: relative;
+    filter: invert(0.7);
+
+}
+.testimonials .testimonial-item .doublequote-icon{
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+  filter: invert(0.7);
+}
 .testimonials .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -102,8 +114,44 @@
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background: #994aff;
 }
-@media (min-width: 992px) {
-  .testimonials .testimonial-item p {
-    width: 100%;
+@media screen and (min-width:469px) and (max-width: 768px){
+  .testimonials{
+    padding: 15px 20px;
+    margin-top: 25px;
   }
+  .testimonials .testimonial-item p{
+    text-align: start;
+  }
+  .testimonials .testimonials-carousel, .testimonials .testimonials-slider-div{
+    gap: 10px;
+  }
+}
+@media only screen and (min-width:0px) and (max-width: 468px) {
+  .testimonials {
+    margin: 0 auto;
+    padding: 15px 15px;
+  }
+  .testimonials h2 {
+    font-size: clamp(1.5rem, 8vw - 2rem, 3rem);
+    line-height: 35px;
+  }
+  .testimonials .testimonials-carousel,
+  .testimonials .testimonials-slider-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    gap: 5px;
+  }
+  .testimonials .testimonial-item p {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: unset;
+    text-align: center;
+    margin: 0 auto;
+}
+.testimonials .testimonial-item h3,
+.testimonials .testimonial-item h4{
+  text-align: center;
+}
 }

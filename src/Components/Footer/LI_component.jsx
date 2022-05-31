@@ -1,6 +1,6 @@
-import "./index.css";
 import { Fragment, useState } from "react";
-import Flecha from "../../assets/Footer/Vector.png"
+import Flecha from "../../assets/Footer/Vector.png";
+import "./index.css";
 
 function LI(props) {
   const [change, setChage] = useState(false);
@@ -10,11 +10,10 @@ function LI(props) {
       <li className={change ? "Selected" : "notSelected"}>
         <div
           onClick={() => {
-            console.log(props.text);
             setChage(!change);
           }}
         >
-          <img src={Flecha} alt="" />
+          <img src={Flecha} alt="icon arrow" />
           <h3>{props.text}</h3>
         </div>
         <p className={change ? "pSelected" : "PnotSelected"}>{props.p}</p>

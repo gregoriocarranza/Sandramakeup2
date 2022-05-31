@@ -1,17 +1,13 @@
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import Card from "../../Components/Card/Card.jsx";
-import banner from "../../assets/Sobre_mi/baner.png";
 import Titulo from "../../assets/Portafolios/Group_20.png";
 import Footer from "../../Components/Footer/Footer";
 import data from "../../helpers/dataPortafolio";
 import "./index.css";
 
 function Sobre_mi() {
-  //   const [change, setChage] = useState(false);
-
   return (
     <Fragment>
-      {/* <img className="Banner" src={banner} alt="" /> */}
       <div className="PortafolioDiv">
         <section className="portafolioTitle">
           <img src={Titulo} alt="" />

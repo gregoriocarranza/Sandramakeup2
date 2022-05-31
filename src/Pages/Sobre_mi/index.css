@@ -1,4 +1,3 @@
-
 .divSection {
   display: flex;
   width: 80%;
@@ -28,10 +27,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
-  /* or 144% */
-
   letter-spacing: 0.04em;
-
   color: #29303e;
   text-align: start;
 }
@@ -45,7 +41,6 @@
   text-align: center;
   text-transform: capitalize;
   color: #29303e;
-
   margin: 30px;
 }
 .alCineImg {
@@ -54,20 +49,16 @@
   flex-direction: row;
   flex-wrap: nowrap;
   margin: auto;
-
-  /* justify-content: space-evenly; */
 }
 
 .playbutton1 {
   position: relative;
-
   left: 350px;
   top: -63px;
 }
 
 .playbutton2 {
   position: fixed;
-
   left: 350px;
   top: -63px;
 }
@@ -93,6 +84,38 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-
   margin: 0 82.5px 0 82.5px;
+}
+@media only screen and (min-width:0px) and (max-width: 468px){
+  .divSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .divSection .imagenPreviewe .imagen-preview-about-img{
+    width: calc(min(50vw, 150px));
+  }
+  .textAndPresentation img{
+    width: calc(min(50vw, 300px));
+    height: auto;
+  }
+  .textAndPresentation .Text{
+    width: 100%;
+  }
+  .alCineSection h3{
+    font-size: clamp(1.5rem, 8vw - 2rem, 3rem);
+  }
+  .alCineImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .divVideos a{
+    width: 50%;
+    height: auto;
+  }
 }

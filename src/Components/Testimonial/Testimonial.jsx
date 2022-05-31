@@ -1,7 +1,9 @@
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination, Scrollbar, Autoplay } from "swiper";
 import dataTestimonials from "../../helpers/dataTestimonials";
+import quote from "../../assets/Icons/quote.svg";
+import doubleQuote from "../../assets/Icons/double-quotes.svg";
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/navigation";
@@ -26,6 +28,16 @@ function Testimonial() {
             delay: 3000,
           }}
           pagination={{ clickable: true }}
+          breakpoints={{
+            0: {
+              slidesPerGroup: 1,
+              slidesPerView:1
+            },
+            368: {
+              slidesPerGroup: 2,
+              slidesPerView:2
+            },
+          }}
         >
           {dataTestimonials.map((data, index) => (
             <SwiperSlide key={index}>
@@ -33,9 +45,9 @@ function Testimonial() {
                 <img src={data.image} className="testimonial-img" alt="" />
                 <div className="testimonial-item">
                   <p>
-                    <img src="" alt="" />
+                    <img src={quote} alt="quote icon" className="quote-icon"/>
                     {data.description}
-                    <img src="" alt="" />
+                    <img src={doubleQuote} alt="quote icon" className="doublequote-icon"/>
                   </p>
 
                   <h3>{data.name}</h3>

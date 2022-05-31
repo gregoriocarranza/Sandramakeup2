@@ -1,8 +1,8 @@
-import "./index.css";
-
 import { Fragment, useState } from "react";
 import LI from "./LI_component";
-import FooterLogo from "../../assets/Footer/footerlogo.png" 
+import FooterLogo from "../../assets/Footer/footerlogo.png";
+import "./index.css";
+
 function Footer() {
   const [change, setChage] = useState(0);
   return (
@@ -18,7 +18,6 @@ function Footer() {
               de maquillaje social?"
                 funct={(e) => {
                   setChage(e);
-                  console.log(e);
                 }}
                 num={1}
                 p="El servicio es personalizado se toman en cuenta la forma de tu rostro, ojos, el color de cabello, atuendo, accesorios, fototipo, biotipo y colorimetría. Luego de una pequeña entrevista se envía un documento PDF por whatsapp o por mail con los precios."
@@ -29,7 +28,6 @@ function Footer() {
               de pago?"
                 funct={(e) => {
                   setChage(e);
-                  console.log(e);
                 }}
                 num={2}
                 p="Tenes todas las opciones, efectivo, mercadopago, en cuotas, transferencia o depósito bancario."
@@ -40,7 +38,6 @@ function Footer() {
               naturales si me pongo extensiones de pestañas?"
                 funct={(e) => {
                   setChage(e);
-                  console.log(e);
                 }}
                 num={3}
                 p="No, definitivamente no. Antes de empezar evaluo el grosor, largo y curvatura de tu pestaña natural y aplico la extensión adecuada. Uso productos de primera línea aprobados por Anmat."
@@ -51,7 +48,6 @@ function Footer() {
               durar el maquillaje?"
                 funct={(e) => {
                   setChage(e);
-                  console.log(e);
                 }}
                 num={4}
                 p="Mas de 12 horas seguro! Mi maletín esta compuesto por productos de larga duración, importados y nacionales de uso profesional, hipoalergénicos y a prueba de agua. También realizo técnicas de sellado para que dure horas y horas así no tenes que preocuparte por el makeup."
@@ -59,7 +55,7 @@ function Footer() {
             </ul>
           </div>
           <div className="FooterLogo">
-            <img src={FooterLogo}alt="" />
+            <img src={FooterLogo} alt="logo" />
             <h3>@Sandratmua</h3>
           </div>
         </section>

@@ -64,7 +64,8 @@
     position: relative;
     background-color: #D0C5FB;
     border: none;
-    top: 20px;
+    top: 30px;
+    left: 20px;
   }
   .fs-1{
     font-size: 30px;

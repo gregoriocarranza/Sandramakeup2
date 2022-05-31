@@ -15,7 +15,7 @@ function Form() {
           // onSubmit={sendEmail}
         >
           {/* <input type="hidden" name="_cc" value="another@email.com" /> */}
-          <label htmlFor="name">Nombre completo *</label>
+          <label htmlFor="name">Nombre completo <span>*</span></label>
           <input
             type="text"
             name="Nombre"
@@ -23,7 +23,7 @@ function Form() {
             placeholder="Ej.Lucia Diaz"
             required
           />
-          <label htmlFor="subjet">Servicio *</label>
+          <label htmlFor="subjet">Servicio <span>*</span></label>
           <select name="_subject" id="subjet" required>
             <option value="-none-" defaultValue>
               Selecciona un servicio
@@ -44,7 +44,7 @@ function Form() {
               Maquillaje Editorial
             </option>
           </select>
-          <label htmlFor="email">Email *</label>
+          <label htmlFor="email">Email <span>*</span></label>
           <input
             type="email"
             name="Mail"
@@ -52,7 +52,7 @@ function Form() {
             placeholder="Ej.Lucia@gmail.com"
             required
           />
-          <label htmlFor="message">Mensaje *</label>
+          <label htmlFor="message">Mensaje <span>*</span></label>
           <textarea
             name="Mensaje"
             cols="30"

@@ -1,28 +1,24 @@
+import { Fragment } from "react";
 import perfil from "../../assets/Inicio/perfil-sandra.png";
-import banner from "../../assets/Sobre_mi/baner.png";
+import bannerAbout from "../../assets/Sobre_mi/banner-about.png";
 import Titulo from "../../assets/Sobre_mi/titulo.png";
 import video1 from "../../assets/Sobre_mi/11.png";
 import video2 from "../../assets/Sobre_mi/22.png";
+import Footer from "../../Components/Footer/Footer";
 import "./index.css";
 
-import Footer from "../../Components/Footer/Footer";
-
-import { Fragment, useState } from "react";
-
 function Sobre_mi() {
-  // const [change, setChage] = useState(false);
-
   return (
     <Fragment>
       <div className="banner-container">
-      <img className="Banner" src={banner} alt="" />
+        <img src={bannerAbout} alt="banner" className="banner-img" />
       </div>
       <section className="divSection">
         <div className="imagenPreviewe">
-          <img src={perfil} alt="" />
+          <img src={perfil} className="imagen-preview-about-img" alt="perfil" />
         </div>
         <div className="textAndPresentation">
-          <img src={Titulo} alt="" />
+          <img src={Titulo} alt="sandra-torrez" />
           <div className="Text">
             <p>
               Hace mas de 12 años que me sumergí en el mundo del make up. Cuando
@@ -57,14 +53,14 @@ function Sobre_mi() {
         <h3>Trayectoria en el cine</h3>
         <section className="alCineImg">
           <div className="divVideos">
-            <img src={video1} alt="" />
+            <img src={video1} alt="video" />
             <a href="https://play.cine.ar/INCAA/produccion/3997">
               Maquillé para CineAr. Pelicula “MAYO EN LA AVENIDA” DIRECTOR:
               Diego Baridó Productora:Silvana Cascardo: @rouge.sil
             </a>
           </div>
           <div className="divVideos">
-            <img src={video2} alt="" />
+            <img src={video2} alt="video" />
             <a href="https://play.cine.ar/INCAA/produccion/3997">
               Maquillé para CineAr. Pelicula “MAYO EN LA AVENIDA” DIRECTOR:
               Diego Baridó Productora:Silvana Cascardo: @rouge.sil

@@ -18,7 +18,7 @@ export default [
     },
     {
         image: image3,
-        description: "“Super atenta y profesional a la hora de maquillarme. Me sentí muy a gusto y logró entender lo que yo buscaba para mi make up”",
+        description: "Super atenta y profesional a la hora de maquillarme. Me sentí muy a gusto y logró entender lo que yo buscaba para mi make up",
         name: "Gisela Rodriguez",
         roll: "Clienta",
     },

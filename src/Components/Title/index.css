@@ -19,3 +19,11 @@
   .title .startwo{
       padding: 20px 10px;
   }
+  @media only screen and (min-width:0px) and (max-width: 468px) {
+    .title h2{
+      font-size: clamp(1.5rem, 8vw - 2rem, 3rem);
+    }
+    .title .vector{
+      width: calc(min(50vw, 100px));
+    }
+  }

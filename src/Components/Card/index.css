@@ -76,3 +76,19 @@
   letter-spacing: 0.04em;
   color: #4f4f4f;
 }
+@media screen and (min-width:469px) and (max-width: 768px) {
+  .Carditem:nth-of-type(3){
+    transform: translate(200px);
+  }
+}
+@media only screen and (min-width:0px) and (max-width: 468px){
+  .latest-productions-container{
+    max-width: 100%;
+  }
+  .latest-productions-title img{
+    width: calc(min(100vw, 300px));
+  }
+  .Carditem:nth-of-type(3){
+    transform: unset;
+  }
+}

@@ -12,7 +12,6 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   padding: 3rem;
-  /* margin-top: 3rem; */
   background: #dccee4;
   width: 100%;
   height: auto;
@@ -24,10 +23,8 @@ footer {
   font-weight: 700;
   font-size: 24px;
   line-height: 34px;
-
   text-align: center;
   text-transform: capitalize;
-
   color: #994aff;
 }
 
@@ -77,7 +74,6 @@ footer {
   flex: none;
   order: 1;
   flex-grow: 0;
-
   margin-left: 13px;
 }
 
@@ -111,11 +107,9 @@ footer {
 @keyframes fadein {
   from {
     opacity: 0;
-    height: 0px;
   }
   to {
     opacity: 1;
-    height: 132px;
   }
 }
 @keyframes fadeout {
@@ -138,7 +132,6 @@ footer {
   animation-name: fadeout;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
-
   display: none;
 }
 .FooterLogo {
@@ -158,11 +151,44 @@ footer {
   font-weight: 700;
   font-size: 24px;
   line-height: 34px;
-  /* identical to box height, or 142% */
-
   text-transform: capitalize;
-
-  /* Fondo */
-
   color: #f7f7f7;
+}
+@media screen and (min-width:469px) and (max-width: 768px) {
+  .footerr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .FooterLogo{
+    padding-left: 40px;
+  }
+  .FAQ .Selected .pSelected{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: start;
+  }
+
+}
+@media only screen and (min-width:0px) and (max-width: 468px) {
+  .footerr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .FooterLogo{
+    padding: 10px;
+    margin-top: 50px;
+    border-top: 1px solid #FFFFFF;
+    border-left: none;
+  }
+  .FAQ .Selected .pSelected{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: start;
+  }
 }

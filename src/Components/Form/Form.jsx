@@ -1,7 +1,5 @@
-import "./index.css";
-
 import { Fragment } from "react";
-import { Link } from "react-router-dom";
+import "./index.css";
 
 function Form() {
   return (
@@ -15,7 +13,9 @@ function Form() {
           // onSubmit={sendEmail}
         >
           {/* <input type="hidden" name="_cc" value="another@email.com" /> */}
-          <label htmlFor="name">Nombre completo <span>*</span></label>
+          <label htmlFor="name">
+            Nombre completo <span>*</span>
+          </label>
           <input
             type="text"
             name="Nombre"
@@ -23,7 +23,9 @@ function Form() {
             placeholder="Ej.Lucia Diaz"
             required
           />
-          <label htmlFor="subjet">Servicio <span>*</span></label>
+          <label htmlFor="subjet">
+            Servicio <span>*</span>
+          </label>
           <select name="_subject" id="subjet" required>
             <option value="-none-" defaultValue>
               Selecciona un servicio
@@ -44,7 +46,9 @@ function Form() {
               Maquillaje Editorial
             </option>
           </select>
-          <label htmlFor="email">Email <span>*</span></label>
+          <label htmlFor="email">
+            Email <span>*</span>
+          </label>
           <input
             type="email"
             name="Mail"
@@ -52,7 +56,9 @@ function Form() {
             placeholder="Ej.Lucia@gmail.com"
             required
           />
-          <label htmlFor="message">Mensaje <span>*</span></label>
+          <label htmlFor="message">
+            Mensaje <span>*</span>
+          </label>
           <textarea
             name="Mensaje"
             cols="30"
@@ -62,11 +68,14 @@ function Form() {
           />
           <input type="hidden" name="_template" value="table" />
           {/* Aca tiene que ir el redireccionamiento para agradecer por el mail */}
-          <input type="hidden" name="_next" value="https://sandramakeup.netlify.app/Thanks.html" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://sandramakeup.netlify.app/Thanks.html"
+          />
 
           <input type="hidden" name="_captcha" value="false" />
           <button type="submit">Enviar</button>
-          
         </form>
       </section>
     </Fragment>

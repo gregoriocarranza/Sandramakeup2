@@ -12,6 +12,22 @@
 .services-container {
   padding-bottom: 25px;
 }
+@media only screen and (min-width:469px) and (max-width: 768px){
+    .services{
+        padding: 15px 30px;
+        gap: 40px;
+    }
+    .services .image-services{
+        width: calc(min(50vw, 300px));
+        margin: 0 auto;
+    }
+    .content-services h2{
+        font-size: 40px;
+        text-align: center;
+        line-height: 50px;
+        text-align: start;
+    }
+}
 @media only screen and (min-width:0px) and (max-width: 468px){
     .container-services{
         display: flex;

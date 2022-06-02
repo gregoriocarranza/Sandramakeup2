@@ -60,6 +60,40 @@
   width: 50%;
   margin: 42px auto 0 auto;
 }
+@media only screen and (min-width:468px) and (max-width: 768px){
+  .Hablemos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  .Hablemos h2{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .Hablemos p{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+  }
+  .Hablemos .InfoLink{
+    width: 100%;
+    padding: 10px;
+  }
+  .redesDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
 @media only screen and (min-width:0px) and (max-width: 468px){
   .Contacto{
     display: flex;

@@ -18,8 +18,8 @@ function Inicio({ setPivot, props }) {
   const filteredCards = data.filter((card, index) => index <= 2);
   return (
     <Fragment>
-      <div className="banner-container">
-        <img src={banner} alt="banner" className="banner-img" />
+      <div className="banner-container-home">
+        <img src={banner} alt="banner" className="banner-img-home" />
       </div>
       <section className="section-home-cover">
         <div className="cover-container layout-grid">

@@ -50,17 +50,17 @@ function Sobre_mi() {
         </div>
       </section>
       <section className="alCineSection">
-        <h3>Trayectoria en el cine</h3>
+        <h3>TRAYECTORIA EN EL CINE</h3>
         <section className="alCineImg">
           <div className="divVideos">
-            <img src={video1} alt="video" />
+            <img src={video1} className="about-video" alt="video" />
             <a href="https://play.cine.ar/INCAA/produccion/3997">
               Maquillé para CineAr. Pelicula “MAYO EN LA AVENIDA” DIRECTOR:
               Diego Baridó Productora:Silvana Cascardo: @rouge.sil
             </a>
           </div>
           <div className="divVideos">
-            <img src={video2} alt="video" />
+            <img src={video2} className="about-video" alt="video" />
             <a href="https://play.cine.ar/INCAA/produccion/3997">
               Maquillé para CineAr. Pelicula “MAYO EN LA AVENIDA” DIRECTOR:
               Diego Baridó Productora:Silvana Cascardo: @rouge.sil

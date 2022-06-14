@@ -97,16 +97,19 @@ function NavBar({ pivot, setPivot }) {
             link={FaceBook}
             url="https://www.facebook.com/sandratorrez88"
             class="Facebook"
+            target="_blank" 
           />
           <Redes
             link={Youtube}
             url="https://www.youtube.com/channel/UC8wMykK6ELOb6W1jiPKOX0w"
             class="Youtube"
+            target="_blank" 
           />
           <Redes
             link={Instagram}
             url="https://www.instagram.com/sandratmua/"
             class="Instagram"
+            target="_blank" 
           />
         </div>
       </nav>

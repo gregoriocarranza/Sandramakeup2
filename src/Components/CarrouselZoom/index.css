@@ -1,8 +1,33 @@
 .content-carousel {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(235, 241, 245, 0.9);
+    border-radius: 12px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+.content-carousel.is-open{
     display: flex;
+}
+.carousel-container{
+    position: relative;
+}
+.modal-close{
+    position: absolute;
+    transform: translate(430px);
+    top: -4rem;
     align-items: center;
     justify-content: center;
-  }
+    border: none;
+    font-size: 50px;
+    background: transparent;
+    color: #29303E;
+}
 .carousel {
   display: flex;
   justify-content: center;

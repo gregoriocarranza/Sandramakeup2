@@ -3,7 +3,7 @@ import image2 from "../assets/Inicio/Flor-Ponce-Colega.png";
 import image3 from "../assets/Inicio/Gisela-Rodriguez-Clienta.png";
 import image4 from "../assets/Inicio/Rodrigo-Arbé.png";
 
-export default [
+const Testimonials = [
     {
         image: image1,
         description: "Me encanta ir al estudio de Sandra, siempre me recibe con música agradable, unas velitas encendidas, caramelera con cosas ricas, cuida mucho cada detalle para hacerte sentir bien",
@@ -29,3 +29,6 @@ export default [
         roll: "Cliente",
     }
 ]
+
+
+export default Testimonials

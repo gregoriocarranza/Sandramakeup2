@@ -4,7 +4,7 @@ import extensionesdepestañas from "../assets/Servicios/extensiones-de-pestañas
 import maquillajesocial from "../assets/Servicios/maquillaje-social.png"
 import carrerademaquillajesocialinicial from "../assets/Servicios/carrerademaquillajesocialinicial.png"
 
-export default [
+const Services = [
     {
         image: automaquillaje,
         title: "Taller de automaquillaje",
@@ -46,3 +46,5 @@ export default [
         list3: "Se respetan todas las normas de bioseguridad"
     }
 ]
+
+export default Services

@@ -30,7 +30,7 @@ import LookDeImpactoPic3 from "../assets/Portafolios/Preview_look_de_impacto/3.p
 import LookDeImpactoPic4 from "../assets/Portafolios/Preview_look_de_impacto/4.png"
 
 
-export default [
+const Portafolio = [
     {
         icon: iconCampañaDeModa,
         Title: "Campaña  de moda",
@@ -74,3 +74,5 @@ export default [
     },
 
 ]
+
+export default Portafolio

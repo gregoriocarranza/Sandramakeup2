@@ -6,6 +6,7 @@ import data from "../../helpers/dataPortafolio";
 import "./index.css";
 
 function Sobre_mi() {
+  // console.log(data)
   return (
     <Fragment>
       <div className="PortafolioDiv">
@@ -14,7 +15,7 @@ function Sobre_mi() {
         </section>
 
         <div className="CardContainer">
-          {data.map((card, index) => (
+          {data.map((card) => (
             <Card
               icon={card.icon}
               Title={card.Title}
@@ -27,8 +28,7 @@ function Sobre_mi() {
               min2={card.min2}
               min3={card.min3}
               min4={card.min4}
-
-              key={index}
+              id={card.id}
               Addon={true}
             />
           ))}

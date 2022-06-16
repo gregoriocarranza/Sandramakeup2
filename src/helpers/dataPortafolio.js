@@ -73,6 +73,7 @@ const Portafolio = [
         min2: crudoModa2,
         min3: crudoModa3,
         min4: crudoModa4,
+        id:0
     }, {
         icon: iconMakeUpAlAireLibre,
         Title: "Campañas de fotografia",
@@ -85,6 +86,8 @@ const Portafolio = [
         min2: crudomakeup2,
         min3: crudomakeup3,
         min4: crudomakeup4,
+        id:1
+
     }, {
         icon: iconCampañaFotografica,
         Title: "Campaña fotografica",
@@ -97,6 +100,8 @@ const Portafolio = [
         min2: crudoFotografia2,
         min3: crudoFotografia3,
         min4: crudoFotografia4,
+        id:2
+
     }, {
         icon: iconPestañas,
         Title: "Pestañas",
@@ -109,6 +114,8 @@ const Portafolio = [
         min2: crudoPestañas2,
         min3: crudoPestañas3,
         min4: crudoPestañas4,
+        id:3
+
     }, {
         icon: iconLooksDeImpacto,
         Title: "Looks de impacto",
@@ -121,6 +128,8 @@ const Portafolio = [
         min2: crudoImpacto2,
         min3: crudoImpacto3,
         min4: crudoImpacto4,
+        id:4
+
     },
 
 ]

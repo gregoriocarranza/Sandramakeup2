@@ -32,6 +32,7 @@ function Card(props) {
         </div>
       </div>
       <CarrouselZoom
+        id={props.id}
         img1={props.min1}
         img2={props.min2}
         img3={props.min3}

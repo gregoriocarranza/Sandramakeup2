@@ -1,10 +1,15 @@
 .content-carousel {
+  display: flex;
+  flex-direction: column;
+
   position: fixed;
-  z-index: 999;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 100vh;
+  z-index: 2;
+  top: 10%;
+  left: 5%;
+  margin: auto;
+
+  width: 90%;
+  min-height: 80%;
   background-color: rgba(235, 241, 245, 0.9);
   border-radius: 12px;
   justify-content: center;
@@ -14,7 +19,7 @@
   display: none;
 }
 .carouselvisible {
-  display: block;
+  display: flex;
 }
 .carousel-container {
   position: relative;
@@ -37,7 +42,7 @@
 
 .carousel .slide img {
   height: auto;
-  width: 10%;
+  width: 22%;
   object-fit: cover;
   overflow: hidden;
 }
@@ -79,17 +84,16 @@
   z-index: 1;
   cursor: pointer;
   border: 0px;
-  position: relative;
+  position: absolute;
   height: 30px;
   width: 28px;
   background: #dcfe54;
   border-radius: 100%;
-
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 22px;
-  left: 82rem;
+  top: 5%;
+  left: 95%;
 }
 .control-next.control-arrow {
   right: inherit;
@@ -125,4 +129,11 @@
 }
 .control-dots {
   display: none;
+}
+
+.carousel .slide {
+  min-width: 100%;
+  margin: auto !important;
+  position: relative;
+  text-align: center;
 }

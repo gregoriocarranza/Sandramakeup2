@@ -23,6 +23,11 @@ function Sobre_mi() {
               img2={card.img2}
               img3={card.img3}
               img4={card.img4}
+              min1={card.min1}
+              min2={card.min2}
+              min3={card.min3}
+              min4={card.min4}
+
               key={index}
               Addon={true}
             />

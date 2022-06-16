@@ -1,10 +1,22 @@
+import { useState } from "react";
 import { Fragment } from "react";
 import "./index.css";
+import CarrouselZoom from "../../Components/CarrouselZoom/CarrouselZoom";
 
 function Card(props) {
+  // console.log(props);
+  const [apear, setApear] = useState(false);
   return (
     <Fragment>
-      <div className="Carditem">
+      <div
+        className="Carditem"
+        onClick={() => {
+          if (props.Addon == true) {
+            setApear(!apear);
+            console.log(apear);
+          }
+        }}
+      >
         <section className="cardHeaderSection">
           <img className="cardIcon" src={props.icon} alt="" />
           <h2>{props.Title}</h2>
@@ -19,6 +31,16 @@ function Card(props) {
           </div>
         </div>
       </div>
+      <CarrouselZoom
+        img1={props.min1}
+        img2={props.min2}
+        img3={props.min3}
+        img4={props.min4}
+        visibiliti={apear}
+        visibilitiChange={(e) => {
+          setApear(e);
+        }}
+      />
     </Fragment>
   );
 }

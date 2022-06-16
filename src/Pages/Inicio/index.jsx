@@ -105,7 +105,7 @@ function Inicio({ setPivot, props }) {
               img3={card.img3}
               img4={card.img4}
               key={index}
-              Addon={true}
+              Addon={false}
             />
           ))}
         </div>

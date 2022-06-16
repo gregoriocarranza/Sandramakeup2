@@ -11,7 +11,7 @@ function Card(props) {
       <div
         className="Carditem"
         onClick={() => {
-          if (props.Addon == true) {
+          if (props.Addon === true) {
             setApear(!apear);
             console.log(apear);
           }

@@ -120,7 +120,7 @@
 }
 .control-next.control-arrow {
   right: inherit;
-  transform: translate(-22rem);
+  transform: translate(-8rem);
   background: #dcfe54;
 }
 .carousel .control-next.control-arrow:before {
@@ -128,7 +128,7 @@
 }
 .carousel .control-prev.control-arrow {
   left: inherit;
-  transform: translate(-25rem);
+  transform: translate(-24rem);
   background: #dcfe54;
 }
 .carousel .control-prev.control-arrow:before {

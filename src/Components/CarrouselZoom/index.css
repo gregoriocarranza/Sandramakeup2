@@ -42,12 +42,7 @@
 .carousel .slide {
   height: 50vh;
 }
-.carousel .slide img {
-  height: auto;
-  width: 22%;
-  object-fit: cover;
-  overflow: hidden;
-}
+
 .thumbs .thumbs {
   display: flex;
   justify-content: center;
@@ -71,19 +66,13 @@
 }
 .carousel .image-carousel-div {
   margin: 0 auto;
-  height: 400px;
-  width: 400px;
+    width: 100%;
+    height: 100%;
   border-radius: 1rem;
 }
 .carousel .image-carousel-div .image-carousel {
-  min-height: 100%;
-  max-width: auto;
-  object-fit: cover;
-  overflow: hidden;
-  vertical-align: middle;
-  align-items: center;
-  text-align: center;
-  width: 100%;
+  width: auto;
+  height: 100%;
 }
 .carousel-status {
   display: none;

@@ -119,7 +119,7 @@ const Portafolio = [
     }, {
         icon: iconLooksDeImpacto,
         Title: "Looks de impacto",
-        Texto: "Trabajos realizados en el curso de AutoMaquillake inicial",
+        Texto: "Trabajos realizados en el curso de AutoMaquillaje inicial",
         img1: LookDeImpactoPic1,
         img2: LookDeImpactoPic2,
         img3: LookDeImpactoPic3,

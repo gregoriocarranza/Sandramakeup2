@@ -80,9 +80,6 @@
   .CardContainer{
     padding-bottom: 15px;
   }
-  .Carditem:nth-of-type(5){
-    transform: translate(200px);
-  }
 }
 @media only screen and (min-width:0px) and (max-width: 468px){
   .latest-productions-container{

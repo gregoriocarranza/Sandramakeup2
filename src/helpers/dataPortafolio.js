@@ -91,7 +91,7 @@ const Portafolio = [
     }, {
         icon: iconCampañaFotografica,
         Title: "Campaña fotografica",
-        Texto: "Experiencia realidad junto a Luciano Rojas: @lucianorojas_foto",
+        Texto: "Experiencia realizada junto a Luciano Rojas: @lucianorojas_foto",
         img1: CampañaFotograficaPic1,
         img2: CampañaFotograficaPic2,
         img3: CampañaFotograficaPic3,
@@ -130,7 +130,7 @@ const Portafolio = [
         min4: crudoImpacto4,
         id:4
 
-    },
+    }
 
 ]
 

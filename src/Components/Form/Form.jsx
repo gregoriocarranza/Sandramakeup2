@@ -9,7 +9,7 @@ function Form() {
           method="POST"
           id="noteForm"
           className="FormUser"
-          action="https://formsubmit.co/50d18cd96426f595f83b3562a5f37959" //Esto tenemos que cambiarlo por el mail de sandra, luego pondremos este codigo que nos mandaron
+          action="https://formsubmit.co/5920311cbb2e56660b69ce2895caef83" // Esto tenemos que cambiarlo por el mail de sandra, luego pondremos este codigo que nos mandaron
           // onSubmit={sendEmail}
         >
           {/* <input type="hidden" name="_cc" value="another@email.com" /> */}

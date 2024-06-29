@@ -60,7 +60,7 @@ function Inicio({ setPivot, props }) {
             <span>Maquillaje social</span>
             <p>
               Servicio de Maquillaje personalizado a prueba de agua,
-              hipoalergènico y de larga duraciòn.
+              hipoalergénico y de larga duración.
             </p>
           </div>
           <div className="services-list">
@@ -110,7 +110,7 @@ function Inicio({ setPivot, props }) {
           ))}
         </div>
         <Link
-          to="/portafolio"
+          to="/portfolio"
           className="btn-info"
           onClick={() => {
             setPivot(3);

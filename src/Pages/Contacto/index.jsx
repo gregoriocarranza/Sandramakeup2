@@ -3,7 +3,7 @@ import Form from "../../Components/Form/Form.jsx";
 import bannerAbout from "../../assets/Sobre_mi/banner-about.png";
 import Redes from "../../Components/Header/Redes";
 import FaceBook from "../../assets/Header/Facebook.png";
-import Youtube from "../../assets/Header/Twiter.png";
+import Youtube from "../../assets/Header/Youtube.png";
 import Instagram from "../../assets/Header/Instagram.png";
 import gpsIcon from "../../assets/Contacto/icon/map-pin.png";
 import mailicon from "../../assets/Contacto/icon/mail.png";
@@ -38,8 +38,18 @@ function Contacto() {
             +549 1130073328
           </a>
           <div className="redesDiv">
-            <Redes link={FaceBook} url="" class="Facebook" />
-            <Redes link={Youtube} url="" class="Youtube" />
+            <Redes
+              link={FaceBook}
+              url="https://www.facebook.com/sandratorrez88"
+              class="Facebook"
+              target="_blank"
+            />
+            <Redes
+              link={Youtube}
+              url="https://www.youtube.com/channel/UC8wMykK6ELOb6W1jiPKOX0w"
+              class="Youtube"
+              target="_blank"
+            />
             <Redes
               link={Instagram}
               url="https://www.instagram.com/sandratmua/"

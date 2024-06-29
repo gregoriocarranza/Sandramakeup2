@@ -8,6 +8,7 @@ Se trabajó en el rediseño de la imagen de marca para que la identidad de Sandr
   - [Figma (Guia de estilos)](https://www.figma.com/file/OSUlFs7M2nWy8RkOCNRIan/Propuestas-Redise%C3%B1o-web?node-id=27%3A53)
   - [Figma (Prototipo navegable)](https://www.figma.com/proto/OSUlFs7M2nWy8RkOCNRIan/Propuestas-Redise%C3%B1o-web?node-id=27%3A53&scaling=min-zoom&page-id=17%3A53&starting-point-node-id=27%3A53)
   - [Behance Del Proyecto](https://www.behance.net/gallery/144386905/Rediseno-sitio-Sandra-Torres-Make-up)
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/e73adbc6-ada4-4812-8ae9-572c7cdc3e4e/deploy-status?branch=develop)](https://app.netlify.com/sites/sandramakeup/deploys)
 
 ### Participantes:
 
